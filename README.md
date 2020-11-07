@@ -1,29 +1,20 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Veebileht tutvustab GPS kunsti võimalusi Tartus. 
 
-### What is this repository for? ###
+Kolm alalehte on:
+* GPS kunsti tutvustus
+* Näited GPS kunstist Tartus koos juhistega
+* Korduma kippuvad küsimused. 
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+GPS kunsti näited tulevad erakogust. 
 
-### How do I get set up? ###
+## Esialgne ülesehitus ##
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Lehtedel on ühine navigatsiooni riba, kust pääseb teistele lehtedele. 
 
-### Contribution guidelines ###
+Tutvustuse lehel on alamparagrahvideks jaotatud tekst, lisaks mõni pilt. 
 
-* Writing tests
-* Code review
-* Other guidelines
+Gps kunsti näidete leht koosneb piltidest ja iga teose lühikirjeldusest - autor, aeg jms.
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+KKK leht koosneb küsimustest ja nende vastustest.
