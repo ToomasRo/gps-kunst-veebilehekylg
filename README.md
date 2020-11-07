@@ -1,4 +1,4 @@
-# README #
+# GPS-kunst Tartus #
 
 Veebileht tutvustab GPS kunsti võimalusi Tartus. 
 
