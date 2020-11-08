@@ -1,0 +1,16 @@
+
+.index_menu { 
+    text-align: left;
+    background: goldenrod;
+}
+
+@media all and (min-width: 600px) {
+    .index_menu { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .index_menu { order: 1; }
+    .main    { order: 2; }
+    .footer  { order: 3; }
+}

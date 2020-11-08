@@ -1,0 +1,37 @@
+.art_menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
+    list-style: none;
+    margin: 0;
+    
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    padding: 1em;
+    background: goldenrod;
+    text-align: left;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+.art_menu a:hover {
+    color: #f1f1f1;
+    background: lemonchiffon;
+}
+
+@media all and (min-width: 600px) {
+    .art_menu { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .art_menu { order: 1; } 
+    .main    { order: 2; }
+    .footer  { order: 3; }
+}
