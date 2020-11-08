@@ -1,7 +1,14 @@
-#temp {
-    margin: 0px;
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center;
 }
-
+  
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+  
 .navigation {
     display: flex;
     flex-flow: row wrap;
@@ -13,15 +20,22 @@
 }
 
 .navigation a {
-
     text-decoration: none;
     display: block;
     padding: 1em;
     color: white;
-    
 }
-
 
 .navigation a:hover {
     background: greenyellow;
-  }
+}
+
+.main{
+    background: red;
+}
+
+.footer{
+    text-align: center;
+    background: gray;
+}
+
