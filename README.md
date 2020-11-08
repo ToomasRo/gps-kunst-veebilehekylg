@@ -35,3 +35,15 @@ KKK leht koosneb küsimustest ja nende vastustest.
 | Bitbucketi README.md loomine | 29.11.20 | 1 | R |
 | Muud ette tulevad probleemid | 29.11.20 | 20 | T, E, (R) |
 |  |  | 67 |  |
+
+
+## To-Do List ##
+
+- [ ] Make the side menus fix, so that it doesn't scroll away
+- [ ] Add back to top button (lower right corner)
+- [ ] Add a class for the GPS drawings
+	- [ ] Title
+	- [ ] Description
+	- [ ] Distance
+	- [ ] onthegomap link
+- [ ] Normal color scheme
