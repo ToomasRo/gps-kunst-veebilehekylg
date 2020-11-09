@@ -51,4 +51,6 @@
     .art_menu { order: 1; } 
     .main    { order: 2; }
     .footer  { order: 3; }
+    .art_menu max-width: 100px;
+
 }
