@@ -25,6 +25,22 @@
     background: lemonchiffon;
 }
 
+.gps_image_box {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+
+    width: fit-content;
+    margin: 10;
+    padding: 1em;
+    background: blue;
+}
+
+.gps_image_box img { 
+    height: 200px;
+    width: 200px;
+}
+
 @media all and (min-width: 600px) {
     .art_menu { flex: 1 0 0; }
 }
