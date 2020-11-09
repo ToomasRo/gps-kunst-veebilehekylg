@@ -4,9 +4,7 @@
     justify-content: flex-start;
 
     list-style: none;
-    margin: 0;
     
-    text-decoration: none;
     list-style: none;
     display: block;
     padding: 1em;
@@ -25,6 +23,27 @@
     background: lemonchiffon;
 }
 
+.gps_image_box {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    list-style: none;
+
+    width: fit-content;
+    margin: 30px;
+    padding: 2em;
+    background: blue;
+}
+
+.gps_image_box img { 
+    height: 200px;
+    width: 200px;
+    padding: 2em;
+}
+
+.gps_image_box li:hover{
+    background: blueviolet;
+}
 @media all and (min-width: 600px) {
     .art_menu { flex: 1 0 0; }
 }
