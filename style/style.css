@@ -62,3 +62,11 @@ body {
     background: gray;
 }
 
+@media all and (min-width: 800px) {
+    .faq_menu { flex: 1 0 0; }
+    .sidebar { visibility: visible; }
+}
+
+@media all and (max-width: 800px) {
+    .sidebar {visibility: hidden; }
+}
