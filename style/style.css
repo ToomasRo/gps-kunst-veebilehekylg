@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 
@@ -39,6 +41,7 @@ body {
     position: fixed;
     top: 150px;
     left: 50px;
+    list-style: none;
 }
 
 .wrapper {
@@ -63,7 +66,6 @@ body {
 }
 
 @media all and (min-width: 800px) {
-    .faq_menu { flex: 1 0 0; }
     .sidebar { visibility: visible; }
 }
 

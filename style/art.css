@@ -12,13 +12,23 @@
     text-align: left;
 }
 
+.art_menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.art_menu li{
+    background: olive;
+    padding: 1em;
+}
+
 /* .navigation a {
     text-decoration: none;
     display: block;
     padding: 1em;
 } */
 
-.art_menu a:hover {
+.art_menu li:hover {
     color: #f1f1f1;
     background: lemonchiffon;
 }
@@ -31,19 +41,31 @@
 
     width: fit-content;
     margin: 30px;
-    padding: 2em;
+    padding: 1em;
     background: blue;
 }
 
 .gps_image_box img { 
     height: 200px;
     width: 200px;
-    padding: 2em;
 }
+
+.gps_image_box li{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.gps_image_box li ul p{
+    text-align: center;
+    padding-top: 1em;
+}
+
 
 .gps_image_box li:hover{
     background: blueviolet;
 }
+
 @media all and (min-width: 600px) {
     .art_menu { flex: 1 0 0; }
 }
@@ -54,5 +76,4 @@
     .main    { order: 2; }
     .footer  { order: 3; }
     .art_menu max-width: 100px;
-
 }
