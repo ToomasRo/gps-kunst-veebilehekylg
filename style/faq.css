@@ -2,14 +2,3 @@
     text-align: left;
     background: goldenrod;
 }
-
-@media all and (min-width: 600px) {
-    .faq_menu { flex: 1 0 0; }
-}
-
-@media all and (min-width: 800px) {
-    .main    { flex: 3 0px; }
-    .faq_menu { order: 1; }
-    .main    { order: 2; }
-    .footer  { order: 3; }
-}
