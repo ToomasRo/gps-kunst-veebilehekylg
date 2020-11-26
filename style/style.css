@@ -5,9 +5,16 @@
     font-family: 'Helvetica Neue', sans-serif;
 }
 
-
 body {
     background-color: #eee;
+}
+
+.navigation a, .sidebar ul li a {
+    background-color: #f9a965;
+}
+
+.navigation a:hover, .sidebar ul li a:hover {
+    background-color: #e99955;
 }
 
 .navigation {
@@ -16,38 +23,63 @@ body {
     padding: 1em;
     padding-left: 10%;
     width: 100%;
-    background-color: #eee;
+    /* background-color: linear-gradient(lightblue, lightgreen); */
 }
+
 .navigation a {
     text-decoration: none;
     color: black;
     padding: 10px;
     border: black;
     border-style: solid;
-    border-radius: 25%;
-    background-color: #f9a965;
-}
-
-.navigation a:hover {
-    background-color: #e99955;
+    border-radius: 30px;
 }
 
 .navigation li{
     display: inline-block;
     margin: 10px;
+    margin-top: 30px;
 }
 
 .sidebar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    list-style: none;
+    display: block;
+    padding: 1em;
+    text-align: left;
+    background: linear-gradient(to bottom left, lightblue, lightgreen, lightblue);
+}
+
+.sidebar ul {
     position: fixed;
     top: 150px;
     left: 50px;
-    list-style: none;
+    list-style-type: none;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .wrapper {
     display: flex;  
     flex-flow: row wrap;
     text-align: center;
+    height: 100%;
 }
   
 .wrapper > * {
@@ -56,19 +88,35 @@ body {
 }
 
 .main{
-    padding: 100px;
-    background: red;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to bottom right, lightblue, lightgreen, lightblue);
+    border-style: none;
 }
 
 .footer{
     text-align: center;
     background: gray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 @media all and (min-width: 800px) {
-    .sidebar { visibility: visible; }
+    .faq_menu { flex: 1 0 0; }
+    .sidebar ul { visibility: visible; }
+    .main    { flex: 3 0px; }
+    .sidebar { order: 1; } 
+    .main    { order: 2; }
+    .footer  { order: 3; }
 }
 
 @media all and (max-width: 800px) {
-    .sidebar {visibility: hidden; }
+    .sidebar ul { visibility: hidden; }
+}
+
+@media all and (min-width: 600px) {
+    .sidebar { flex: 1 0 0; }
 }
