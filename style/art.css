@@ -6,15 +6,26 @@
 
     width: fit-content;
     margin: 30px;
-    padding: 2em;
+    padding: 1em;
     background: blue;
 }
 
 .gps_image_box img { 
     height: 200px;
     width: 200px;
-    padding: 2em;
 }
+
+.gps_image_box li{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.gps_image_box li ul p{
+    text-align: center;
+    padding-top: 1em;
+}
+
 
 .gps_image_box li:hover{
     background: blueviolet;
