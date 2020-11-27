@@ -19,6 +19,9 @@ ol {
 .section {
     margin-top: 20px;
     margin-bottom: 60px;
+    background: linear-gradient(to bottom right, rgb(132, 176, 190), rgb(108, 196, 108), rgb(132, 176, 190));
+    border-radius: 30px;
+    padding-top: 1em;
 }
 
 img {

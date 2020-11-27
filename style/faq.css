@@ -12,7 +12,8 @@ h1{
 }
 
 details{
-    background: rgba(179, 179, 179, 0.605);
+    /*background: rgba(179, 179, 179, 0.605);*/
+    background: linear-gradient(to bottom right, rgb(132, 176, 190), rgb(108, 196, 108), rgb(132, 176, 190));
     padding: 20px;
     border-radius: 20px;
     margin-top: 30px;
