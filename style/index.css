@@ -8,6 +8,7 @@ p, ol li {
     margin-top: 20px;
     line-height: 2.5rem;
 }
+
 ol {
     margin-top: 20px;
     margin-left: 20%;
@@ -19,6 +20,7 @@ ol {
     margin-top: 20px;
     margin-bottom: 60px;
 }
+
 img {
     max-width: 300px;
     display: inline block;

@@ -5,7 +5,6 @@
     list-style: none;
 
     width: fit-content;
-    margin: 30px;
     /* padding: 1em; */
     
 }
@@ -42,3 +41,7 @@
     background: linear-gradient(to bottom right, rgb(132, 176, 190), rgb(108, 196, 108), rgb(132, 176, 190));
     border-radius: 30px;
 }
+
+
+
+    
