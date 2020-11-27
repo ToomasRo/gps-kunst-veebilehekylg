@@ -35,9 +35,7 @@
     font-size: 24px;
 }
 
-
 .gps_image_box ul:hover{
-    background: pink;
     background: linear-gradient(to bottom right, rgb(132, 176, 190), rgb(108, 196, 108), rgb(132, 176, 190));
     border-radius: 30px;
 }
