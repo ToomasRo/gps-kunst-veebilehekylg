@@ -1,0 +1,42 @@
+.faq_menu {
+    text-align: left;
+    background: goldenrod;
+}
+
+.main{
+    text-align: center;
+    background: red;
+}
+
+body{
+    background: white;
+}
+
+
+h1{
+    color: black;
+}
+
+details{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 20%;
+    margin-right: 20%
+
+}
+
+@media all and (min-width: 600px) {
+    .faq_menu { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .faq_menu { order: 1; }
+    .main    { order: 2; }
+    .footer  { order: 3; }
+}
+
