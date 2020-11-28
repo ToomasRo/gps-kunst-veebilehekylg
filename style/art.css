@@ -5,28 +5,41 @@
     list-style: none;
 
     width: fit-content;
-    margin: 30px;
-    padding: 1em;
-    background: blue;
+    /* padding: 1em; */
+    
 }
 
 .gps_image_box img { 
-    height: 200px;
-    width: 200px;
+    height: 270px;
+    width: 270px;
+    border-radius: 30px;
 }
 
-.gps_image_box li{
+.gps_image_box ol{
     display: flex;
     flex-direction: column;
     text-align: left;
+    list-style: none;
 }
 
-.gps_image_box li ul p{
+
+.gps_image_box ul{
+    list-style: none;
+    padding: 1em;
+}
+
+.gps_image_box ul p{
     text-align: center;
-    padding-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    font-size: 24px;
+}
+
+.gps_image_box ul:hover{
+    background: linear-gradient(to bottom right, rgb(132, 176, 190), rgb(108, 196, 108), rgb(132, 176, 190));
+    border-radius: 30px;
 }
 
 
-.gps_image_box li:hover{
-    background: blueviolet;
-}
+
+    
