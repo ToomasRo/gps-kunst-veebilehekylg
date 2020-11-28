@@ -133,7 +133,7 @@ body {
     display: none;
     position: fixed;
     bottom: 60px;
-    right: 50px;
+    left: 50px;
     z-index: 99;
     font-size: 80px;
     border: none;
@@ -167,6 +167,13 @@ body {
 
 @media all and (max-width: 800px) {
     .sidebar ul { visibility: hidden; }
+    #to_top_button {
+        width: 50px;
+        height: 50px;
+        font-size: 40px;
+        left: 20px;
+        bottom: 100px;
+    }
 }
 
 @media all and (min-width: 600px) {
