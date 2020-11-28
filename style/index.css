@@ -2,7 +2,7 @@ h1 {
     font-size: 35px;
 }
 
-p, ol li {
+p, ol li, .section img{
     margin-left: 30px;
     margin-right: 30px;
     font-size: 20px;
