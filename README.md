@@ -9,7 +9,7 @@ Kolm alalehte on:
 
 GPS kunsti näited tulevad erakogust. 
 
-## Esialgne ülesehitus ##
+## Ülesehitus ##
 
 Lehtedel on ühine navigatsiooni riba, kust pääseb teistele lehtedele. 
 
