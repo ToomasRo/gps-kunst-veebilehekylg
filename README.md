@@ -1,10 +1,10 @@
 # GPS-kunst Tartus #
 
-Veebileht tutvustab GPS kunsti võimalusi Tartus. 
+Veebileht tutvustab GPS kunsti võimalusi Tartus, kirjeldab GPS kunsti ajalugu ja vastab küsimustele, mis võivad kunstnikel tekkida. 
 
 Kolm alalehte on:
-* GPS kunsti tutvustus
-* Näited GPS kunstist Tartus koos juhistega
+* GPS kunsti tutvustus.
+* Näited GPS kunstist Tartus koos juhistega.
 * Korduma kippuvad küsimused. 
 
 GPS kunsti näited tulevad erakogust. 
@@ -22,6 +22,7 @@ KKK leht koosneb küsimustest ja nende vastustest.
 
 ## Tööplaan ##
 
+Meie tiimiliikmed on Toomas Roosma (T), Enrique Sarap (E) ja Rasmus Saame (R).
 
 | Funktsionaalsus | Tähtaeg | Ajakulu (h) | Vastutav |
 |-|-|-|-|
