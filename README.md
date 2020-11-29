@@ -15,7 +15,7 @@ Lehtedel on ühine navigatsiooni riba, kust pääseb teistele lehtedele.
 
 Tutvustuse lehel on alamparagrahvideks jaotatud tekst, lisaks mõni pilt. 
 
-Gps kunsti näidete leht koosneb piltidest ja iga teose lühikirjeldusest - autor, aeg jms.
+Gps kunsti näidete leht koosneb piltidest ja juhistest, kuidas teost taasluua.
 
 KKK leht koosneb küsimustest ja nende vastustest.
 
