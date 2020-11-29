@@ -64,3 +64,10 @@ img {
     from { opacity: 1; }
     to { opacity: 0; }
 }
+
+@media all and (max-width: 800px) {
+    ol {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
