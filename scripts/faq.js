@@ -1,26 +1,13 @@
-var details = document.getElementsByTagName("details")
-/* console.log(details) */
+var details = document.getElementsByTagName("details") // List kõikidest küsimustest
 
-function detailClicked(event) {
-    for (var j = 0; j < details.length; j++) {
-        if (details[j] != event.path[1]) {
-            details[j].open = false;
+function detailClicked(event) { // Event mis kutsutakse, kui mõnda küsimust vajutatakse
+    for (var j = 0; j < details.length; j++) {  // Käime kõik küsimused läbi
+        if (details[j] != event.path[1]) {  // Kui pole tegemist klikitud küsimusega
+            details[j].open = false; // siis sulgeme 
         }
     }
 }
 
-for (var i = 0; i < details.length; i++) {
-    details[i].addEventListener("click", detailClicked);
+for (var i = 0; i < details.length; i++) { // Käime kõik küsimused läbi
+    details[i].addEventListener("click", detailClicked); // ja lisame neile funktsiooni, mis kutsutakse, kui kasutaja küsimusele
 } /*Allikas: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener ja erinevate variantide proovimine*/
-
-/* console.log("Faq");
-i = 0;
-setInterval(()=> {
-    d = document.getElementById("d")
-    if (i % 2) {
-        d.open = false;
-    } else {
-        d.open = true;
-    }
-    i++;
-},1000) */
