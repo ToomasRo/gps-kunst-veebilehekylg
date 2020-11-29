@@ -9,11 +9,7 @@
     
 }
 
-.gps_image_box img { 
-    height: 270px;
-    width: 270px;
-    border-radius: 30px;
-}
+
 
 .gps_image_box ol{
     display: flex;

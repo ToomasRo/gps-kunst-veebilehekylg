@@ -9,6 +9,12 @@ body {
     background-color: #eee;
 }
 
+img { 
+    height: 270px;
+    width: 270px;
+    border-radius: 30px;
+}
+
 .main a {
     padding: 2px;
     text-decoration: none;

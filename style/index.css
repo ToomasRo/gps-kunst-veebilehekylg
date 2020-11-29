@@ -23,15 +23,21 @@ ol {
     background: linear-gradient(to bottom right, rgb(132, 176, 190), rgb(108, 196, 108), rgb(132, 176, 190));
     border-radius: 30px;
     padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 img {
-    max-width: 300px;
-    display: inline block;
-    margin: auto;
     margin-top: 30px;
 }
 
 #cite {
     text-align: left;
+}
+
+.sl-img {
+    display: none
+}
+
+#sl-0 {
+    display: inline-block;
 }
