@@ -23,15 +23,44 @@ ol {
     background: linear-gradient(to bottom right, rgb(132, 176, 190), rgb(108, 196, 108), rgb(132, 176, 190));
     border-radius: 30px;
     padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 img {
-    max-width: 300px;
-    display: inline block;
-    margin: auto;
     margin-top: 30px;
 }
 
 #cite {
     text-align: left;
+}
+
+.sl-img {
+    animation: fadeout 1s linear forwards;
+}
+
+.sl-img-active {
+    animation: fadein 1s linear forwards;    
+}
+
+.slideshow {
+    position: relative;
+    height: 300px;
+}
+
+.slideshow img {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to { opacity: 0; }
 }

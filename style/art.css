@@ -9,12 +9,6 @@
     
 }
 
-.gps_image_box img { 
-    height: 270px;
-    width: 270px;
-    border-radius: 30px;
-}
-
 .gps_image_box ol{
     display: flex;
     flex-direction: column;
@@ -39,7 +33,3 @@
     background: linear-gradient(to bottom right, rgb(132, 176, 190), rgb(108, 196, 108), rgb(132, 176, 190));
     border-radius: 30px;
 }
-
-
-
-    

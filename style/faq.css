@@ -13,16 +13,10 @@ h1{
 }
 
 details{
-    /*background: rgba(179, 179, 179, 0.605);*/
     background: linear-gradient(to bottom right, rgb(132, 176, 190), rgb(108, 196, 108), rgb(132, 176, 190));
-    /* padding-bottom: 20px; */
     border-radius: 20px;
     margin-top: 30px;
     font-size: 14px;
-    /*letter-spacing: 1px;*/
-    /* margin-left: 10%;
-    margin-right: 10% */
-
 }
 
 .text {
@@ -34,25 +28,8 @@ details{
 
 summary {
     padding: 20px;
-    /* padding-bottom: 0; */
 }
 
 summary:hover {
     cursor: pointer;
 }
-    
-
-/*
-@media all and (min-width: 600px) {
-    .faq_menu { flex: 1 0 0; }
-}
-
-@media all and (min-width: 800px) {
-    .main    { flex: 3 0px; }
-    .faq_menu { order: 1; }
-    .main    { order: 2; }
-    .footer  { order: 3; }
-}
-*/
-
-

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="et">
 <head>
     <meta charset="UTF-8">
@@ -11,8 +12,6 @@
 <body>
 
     <button onclick="topFunction()" id="to_top_button" title="Go to top">&uarr;</button>
-    <script src="scripts/script.js"></script>
-
 
     <ul class="navigation">
         <li><a href="index.html">Mis on GPS kunst?</a></li>
@@ -56,10 +55,20 @@
                     Näited GPS-kunstist
                 </h2>
                 <p>
-                    Twitteris <a target="popup" href="https://twitter.com/gpsartists">@gpsartists</a> jagab palju ägedaid GPS-kunsti näiteid. <a target="popup" href="https://twitter.com/gpsartists">@gpsartists</a> ei ole kunstiteoste autor ja viitab allikale. Lisaks temale võib kunsti leida <a href="https://www.facebook.com/NathanRaeGPS/">Nathan Rae</a> Facebooki lehelt. Ta on loonud näiteks Queen'ist ja Bohemian Rhapsody filmist inspireerituna teoseid jalgrattast ja Freddie Mercuryst.
+                    Twitteris <a target="popup" href="https://twitter.com/gpsartists">@gpsartists</a> jagab palju ägedaid GPS-kunsti näiteid. <a target="popup" href="https://twitter.com/gpsartists">@gpsartists</a> ei ole kunstiteoste autor ja viitab allikale. Lisaks temale võib kunsti leida ka <a href="https://www.facebook.com/NathanRaeGPS/">Nathan Rae</a> Facebooki lehelt. Ta on loonud näiteks Queen'ist ja Bohemian Rhapsody filmist inspireerituna teoseid jalgrattast ja Freddie Mercuryst.
                 </p>    
-                <img src="https://pbs.twimg.com/media/Eiprbq2WkAMFmyh?format=jpg&name=medium" alt="@gpsart_nl kunstiteos" title="@gpsart_nl kunstiteos">
-                <img src="https://images.squarespace-cdn.com/content/v1/50141da524ac15b9a1c64ea0/1580398288360-R0AP1CE5SNBK1UU4AP0H/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/007+-+Rhapsody+Part+1+-+I+Want+To+Ride+My+Bicycle.jpg?format=1000w" alt="Nathan Rae kunstiteos" title="Nathan Rae kunstiteos">
+                
+                <div class="slideshow">
+                    <img class="sl-img-active" id="sl-0" src="media/GPS_kunst/toonekurg.jpg" alt="Toonekurg">
+                    <img class="sl-img" id="sl-1" src="media/GPS_kunst/hiir.jpg" alt="Hiir">
+                    <img class="sl-img" id="sl-2" src="media/GPS_kunst/kilpkonn.jpg" alt="Kilpkonn">
+                    <img class="sl-img" id="sl-3" src="media/GPS_kunst/konn.jpg" alt="Konn">
+                    <img class="sl-img" id="sl-4" src="media/GPS_kunst/lammas.jpg" alt="Lammas">
+                    <img class="sl-img" id="sl-5" src="media/GPS_kunst/liblikas.jpg" alt="Liblikas">
+                    <img class="sl-img" id="sl-6" src="media/GPS_kunst/lill.jpg" alt="Lill">
+                    <img class="sl-img" id="sl-7" src="media/GPS_kunst/mammut.jpg" alt="Mammut">
+                    <img class="sl-img" id="sl-8" src="media/GPS_kunst/orav.jpg" alt="Orav">
+                </div>
             </div>
             <p id="cite">Allikas: <a href="https://en.wikipedia.org/wiki/GPS_drawing">Wikipedia</a></p>
         </article>
@@ -67,6 +76,7 @@
         <footer class="footer">Tehtud Sissejuhatus erialasse raames Tartu Ülikoolis 2020</footer>
 
     </div>
-    
+    <script src="scripts/script.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
