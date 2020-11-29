@@ -14,20 +14,3 @@ function topFunction() { // Funktsioon, mida kutsutakse, kui kasutaja klikib ül
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;  // Vii aken tagasi üles
 } /* Allikas (modifitseeritud) https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
-
-pilt = 0
-i = 0
-imgTotal = 9
-
-function changePicture() {
-  current = document.getElementById("sl-" + String(i));
-  next = document.getElementById("sl-" + String((i + 1) % imgTotal));
-  current.style.display = "none";
-  next.style.display = "inline-block";
-  i = (i + 1) % imgTotal
-}
-
-console.log("kaka");
-setInterval(() => {
-  changePicture()
-}, 2000)
