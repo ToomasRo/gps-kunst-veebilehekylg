@@ -141,15 +141,15 @@ img {
     bottom: 60px;
     left: 50px;
     z-index: 99;
-    font-size: 80px;
+    font-size: 60px;
     border: none;
     outline: none;
     background-color: rgba(84, 181, 131);
     color: white;
     cursor: pointer;
     border-radius: 100%;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
 }
     
  #to_top_button:hover {

@@ -1,5 +1,5 @@
-pilt = 0 // Hetke pildi indeks slaidiseanssis
-imgTotal = 9  // Piltide arv slaidiseansis
+pilt = 0; // Hetke pildi indeks slaidiseanssis
+imgTotal = 9;  // Piltide arv slaidiseansis
 
 function changePicture() {  // Funktsioon pildi vahetamiseks
   current = document.getElementById("sl-" + String(pilt));  // Hetke pilt
