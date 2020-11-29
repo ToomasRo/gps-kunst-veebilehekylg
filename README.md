@@ -1,27 +1,28 @@
 # GPS-kunst Tartus #
 
-Veebileht tutvustab GPS kunsti võimalusi Tartus. 
+Veebileht tutvustab GPS kunsti võimalusi Tartus, kirjeldab GPS kunsti ajalugu ja vastab küsimustele, mis võivad kunstnikel tekkida. 
 
 Kolm alalehte on:
-* GPS kunsti tutvustus
-* Näited GPS kunstist Tartus koos juhistega
+* GPS kunsti tutvustus.
+* Näited GPS kunstist Tartus koos juhistega.
 * Korduma kippuvad küsimused. 
 
 GPS kunsti näited tulevad erakogust. 
 
-## Esialgne ülesehitus ##
+## Ülesehitus ##
 
 Lehtedel on ühine navigatsiooni riba, kust pääseb teistele lehtedele. 
 
 Tutvustuse lehel on alamparagrahvideks jaotatud tekst, lisaks mõni pilt. 
 
-Gps kunsti näidete leht koosneb piltidest ja iga teose lühikirjeldusest - autor, aeg jms.
+Gps kunsti näidete leht koosneb piltidest ja juhistest, kuidas teost taasluua.
 
 KKK leht koosneb küsimustest ja nende vastustest.
 
 
 ## Tööplaan ##
 
+Meie tiimiliikmed on Toomas Roosma (T), Enrique Sarap (E) ja Rasmus Saame (R).
 
 | Funktsionaalsus | Tähtaeg | Ajakulu (h) | Vastutav |
 |-|-|-|-|
@@ -35,15 +36,3 @@ KKK leht koosneb küsimustest ja nende vastustest.
 | Bitbucketi README.md loomine | 29.11.20 | 1 | R |
 | Muud ette tulevad probleemid | 29.11.20 | 20 | T, E, (R) |
 |  |  | 67 |  |
-
-
-## To-Do List ##
-
-- [ ] Make the side menus fix, so that it doesn't scroll away
-- [ ] Add back to top button (lower right corner)
-- [ ] Add a class for the GPS drawings
-	- [ ] Title
-	- [ ] Description
-	- [ ] Distance
-	- [ ] onthegomap link
-- [ ] Normal color scheme
